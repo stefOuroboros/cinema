@@ -1,123 +1,446 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en">
 
 <head>
+
   <meta charset="utf-8">
-  <title>Cinémaaaa - tchintchaa !</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Lora');
-  </style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1,
-shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Behemoth</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+   <!-- myCustom CSS -->
+
+   <link rel="stylesheet" href="css/myCustom.css" type="text/css">
+
 </head>
 
-<body>
-  <header>
-    <nav>
-      <img src="img-src/logo.jpg" alt="logo" id="logo">
-      <ul id="menu">
-        <li><a href="#1">menu1</a></li>
-        <li><a href="#2">menu2</a></li>
-        <li><a href="#3">menu3</a></li>
-      </ul>
-    </nav>
-    <div id="banner" class="parallax-window" data-parallax="scroll" data-image-src="img-src/realite_quentinDupieux.jpg">
-      <h1>IN RACLETTE WE TRUST</h1>
-    </div>
-  </header>
-  <section class="panel turquoise">
-    <div id="films">
-      <li><img src="img-src/film1.jpg" alt="loup"></li>
-      <li><img src="img-src/film2.jpg" alt="rio"></li>
-      <li><img src="img-src/film3.jpg" alt="gad"></li>
-    </div>
-    <div id="infos" class="parallax-window" data-parallax="scroll" data-image-src="img-src/TEL.png">
-      <div id="better">
-        <h2>Informations pratiques</h2>
-        <h3>Avantages cinéma</h3>
-        <ul>
-          <ol>Salle climatisée</ol>
-          <ol>Toutes les salles en IMAX</ol>
-          <ol>Son Digital Prologic Surround</ol>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top text-uppercase myNav" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Cinéma Behemoth</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-prim text-white rounded" type="button"
+        data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Programmation</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
-      <div id="tarifs">
-        <h3>Tarifs</h3>
-        <table class="table-dark table-bordered">
-          <thead class="thead-dark">
-          <tbody>
-            <tr>
-              <th class="caseVide"></th>
-              <th colspan="2">lundi au vendredi</th>
-              <th rowspan="2">week-end</th>
-            </tr>
-          </tbody>
-          </thead>
-          <tr>
-            <th class="caseVide"></th>
-            <th>de 9h à 18h</th>
-            <th>soirée</th>
-          </tr>
-          <tr>
-            <th>- de 14 ans</th>
-            <th>5€</th>
-            <th>6€</th>
-            <th>6€</th>
-          </tr>
-          <tr>
-            <th>Plein tarif</th>
-            <th>10€</th>
-            <th>12€</th>
-            <th>12.50€</th>
-          </tr>
-        </table>
-      </div>
     </div>
-    <div id="maps_contacts">
-      <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.218201093225!2d3.8214800171028847!3d43.61827518819208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6ac29a1ed0e77%3A0x12bff7420e0ee1bd!2sDiginamic+Montpellier!5e0!3m2!1sfr!2sfr!4v1541174232628"
-          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div id="contact">
-        <p>Adresse cinéma <br>
-          04 44 44 44 44</p>
-      </div>
-    </div>
-    <form class="forms" action="submit">
-      <label for="Nom">
-        <span>Nom </span><input type="text" name="Nom" required="true" />
-      </label>
-      <label for="Prénom">
-        <span>Prénom </span><input type="text" name="Prénom" required="true" />
-      </label>
-      <label for="Email">
-        <span>Email</span><input type="email" name="Email" required="true" />
-      </label>
-      <label for="Téléphone"><span>Téléphone</span><input type="tel" name="Téléphone" required="true"></label>
-      <label for="Sujet">
-        <span>Sujet</span><input type="text" name="Sujet" required="true" />
-      </label>
-      <label for="Message">
-        <span>Message</span><textarea name="Message" onkeyup="adjust_textarea(this)" required="true"></textarea>
-      </label>
-      <label>
-        <span> </span><input type="submit" value="Envoyer" />
-      </label>
-    </form>
-    </div>
-    <footer>
-      <h2>ICI C'EST LE FOOTER!!!!!!!!!!!!!</h2>
-    </footer>
+  </nav>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
-    <script src="parallax.js-1.5.0/parallax.min.js"></script>
+  <!-- Header -->
+  <header class="masthead text-white text-center parallax-window" data-parallax="scroll" data-image-src="img/bg.jpg">
+    <div class="container">
+      <div class="pdp mb-5">
+        <img src="img/behemoth-logo.jpg" alt="image de profil">
+      </div>
+      <h1 class="text-uppercase mb-0"><span>Behemoth</span></h1>
+      <img class ="hippo"src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0JBQjJCMjsiIGQ9Ik05Mi43NCwxNTYuNTQ5TDc0Ljg3MSw3Mi45ODVjLTkuODY4LTI4Ljc4OCw1LjQ2OC02MC4xMjMsMzQuMjU2LTY5Ljk5MmwwLDAgIGMyOC43ODctOS44NjgsNjAuMTIzLDUuNDY4LDY5Ljk5MiwzNC4yNTVsMTcuODY4LDUyLjEyMyIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM5Rjk5OTk7IiBkPSJNNDE5LjI2MiwxNTYuNTQ5bDE3Ljg2OC04My41NjRjOS44NjgtMjguNzg3LTUuNDY4LTYwLjEyMy0zNC4yNTUtNjkuOTkybDAsMCAgIGMtMjguNzg4LTkuODY5LTYwLjEyNSw1LjQ2OC02OS45OTMsMzQuMjU1bC0xNy44NjgsNTIuMTIzIi8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojOUY5OTk5OyIgZD0iTTQzMS40MDcsMzI1Ljc1M0g4MC41OTRWMTk4LjczN2MwLTkxLjYxNCw3NC4yNjctMTY1Ljg4MSwxNjUuODgxLTE2NS44ODFoMTkuMDUxICAgYzkxLjYxNCwwLDE2NS44ODEsNzQuMjY3LDE2NS44ODEsMTY1Ljg4MVYzMjUuNzUzeiIvPgo8L2c+CjxwYXRoIHN0eWxlPSJmaWxsOiNCQUIyQjI7IiBkPSJNMjU2LjAwMSwzMjUuNzUzSDgwLjU5NFYxOTguNzM3YzAtOTEuNjE0LDc0LjI2Ny0xNjUuODgxLDE2NS44ODEtMTY1Ljg4MWg5LjUyNUwyNTYuMDAxLDMyNS43NTMgIEwyNTYuMDAxLDMyNS43NTN6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGNkY2RjY7IiBkPSJNMTgxLjAyNywzOTIuNzY0djEwMy4xMzFjMCw4Ljg5NC03LjIxMSwxNi4xMDUtMTYuMTA1LDE2LjEwNWgtNTQuNTYzICBjLTguODk0LDAtMTYuMTA1LTcuMjExLTE2LjEwNS0xNi4xMDVWMzkyLjc2NCIvPgo8cGF0aCBzdHlsZT0iZmlsbDojREFEQURBOyIgZD0iTTQxNy43NDgsMzkyLjc2NHYxMDMuMTMxYzAsOC44OTQtNy4yMTEsMTYuMTA1LTE2LjEwNSwxNi4xMDVoLTU0LjU2MiAgYy04Ljg5NSwwLTE2LjEwNS03LjIxMS0xNi4xMDUtMTYuMTA1VjM5Mi43NjQiLz4KPGc+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMTE2LjI0NSIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMzk1Ljc1NCIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+CjwvZz4KPHBhdGggc3R5bGU9ImZpbGw6IzlGOTk5OTsiIGQ9Ik00MDYuNzc4LDQzMy44NDRIMTA1LjIyMmMtNDkuODA0LDAtOTAuMTc5LTQwLjM3NS05MC4xNzktOTAuMTc5di0yMC4zNTcgIGMwLTQ5LjgwNCw0MC4zNzUtOTAuMTc5LDkwLjE3OS05MC4xNzloMzAxLjU1NmM0OS44MDQsMCw5MC4xNzksNDAuMzc1LDkwLjE3OSw5MC4xNzl2MjAuMzU3ICBDNDk2Ljk1NywzOTMuNDY5LDQ1Ni41ODIsNDMzLjg0NCw0MDYuNzc4LDQzMy44NDR6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNCQUIyQjI7IiBkPSJNMjU2LjAwMSw0MzMuODQ0SDEwNS4yMjJjLTQ5LjgwNCwwLTkwLjE3OS00MC4zNzUtOTAuMTc5LTkwLjE3OXYtMjAuMzU3ICBjMC00OS44MDQsNDAuMzc1LTkwLjE3OSw5MC4xNzktOTAuMTc5aDE1MC43Nzd2MjAwLjcxNUgyNTYuMDAxeiIvPgo8Y2lyY2xlIHN0eWxlPSJmaWxsOiNGMTlEOUE7IiBjeD0iMTE2LjI0NSIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+CjxjaXJjbGUgc3R5bGU9ImZpbGw6I0Q1OEM4OTsiIGN4PSIzOTUuNzU0IiBjeT0iMzIwLjAyNiIgcj0iMzguMDYiLz4KPGc+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMzYyLjIwMSIgY3k9IjE3OS4zMSIgcj0iMjguMDY1Ii8+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMTQ5Ljc5NyIgY3k9IjE3OS4zMSIgcj0iMjguMDY1Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+      <h2 class="font-weight-light mb-0">Une salle de <span>Cinématographe</span> près de chez vous ! <br> Pour une expérience  <span>conviviale</span> et  <span>authentique</span> en <span>famille</span>!</h2>
+    </div>
+  </header>
+
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Programmation</h2>
+      <img class ="hippo"src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0JBQjJCMjsiIGQ9Ik05Mi43NCwxNTYuNTQ5TDc0Ljg3MSw3Mi45ODVjLTkuODY4LTI4Ljc4OCw1LjQ2OC02MC4xMjMsMzQuMjU2LTY5Ljk5MmwwLDAgIGMyOC43ODctOS44NjgsNjAuMTIzLDUuNDY4LDY5Ljk5MiwzNC4yNTVsMTcuODY4LDUyLjEyMyIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM5Rjk5OTk7IiBkPSJNNDE5LjI2MiwxNTYuNTQ5bDE3Ljg2OC04My41NjRjOS44NjgtMjguNzg3LTUuNDY4LTYwLjEyMy0zNC4yNTUtNjkuOTkybDAsMCAgIGMtMjguNzg4LTkuODY5LTYwLjEyNSw1LjQ2OC02OS45OTMsMzQuMjU1bC0xNy44NjgsNTIuMTIzIi8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojOUY5OTk5OyIgZD0iTTQzMS40MDcsMzI1Ljc1M0g4MC41OTRWMTk4LjczN2MwLTkxLjYxNCw3NC4yNjctMTY1Ljg4MSwxNjUuODgxLTE2NS44ODFoMTkuMDUxICAgYzkxLjYxNCwwLDE2NS44ODEsNzQuMjY3LDE2NS44ODEsMTY1Ljg4MVYzMjUuNzUzeiIvPgo8L2c+CjxwYXRoIHN0eWxlPSJmaWxsOiNCQUIyQjI7IiBkPSJNMjU2LjAwMSwzMjUuNzUzSDgwLjU5NFYxOTguNzM3YzAtOTEuNjE0LDc0LjI2Ny0xNjUuODgxLDE2NS44ODEtMTY1Ljg4MWg5LjUyNUwyNTYuMDAxLDMyNS43NTMgIEwyNTYuMDAxLDMyNS43NTN6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGNkY2RjY7IiBkPSJNMTgxLjAyNywzOTIuNzY0djEwMy4xMzFjMCw4Ljg5NC03LjIxMSwxNi4xMDUtMTYuMTA1LDE2LjEwNWgtNTQuNTYzICBjLTguODk0LDAtMTYuMTA1LTcuMjExLTE2LjEwNS0xNi4xMDVWMzkyLjc2NCIvPgo8cGF0aCBzdHlsZT0iZmlsbDojREFEQURBOyIgZD0iTTQxNy43NDgsMzkyLjc2NHYxMDMuMTMxYzAsOC44OTQtNy4yMTEsMTYuMTA1LTE2LjEwNSwxNi4xMDVoLTU0LjU2MiAgYy04Ljg5NSwwLTE2LjEwNS03LjIxMS0xNi4xMDUtMTYuMTA1VjM5Mi43NjQiLz4KPGc+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMTE2LjI0NSIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMzk1Ljc1NCIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+CjwvZz4KPHBhdGggc3R5bGU9ImZpbGw6IzlGOTk5OTsiIGQ9Ik00MDYuNzc4LDQzMy44NDRIMTA1LjIyMmMtNDkuODA0LDAtOTAuMTc5LTQwLjM3NS05MC4xNzktOTAuMTc5di0yMC4zNTcgIGMwLTQ5LjgwNCw0MC4zNzUtOTAuMTc5LDkwLjE3OS05MC4xNzloMzAxLjU1NmM0OS44MDQsMCw5MC4xNzksNDAuMzc1LDkwLjE3OSw5MC4xNzl2MjAuMzU3ICBDNDk2Ljk1NywzOTMuNDY5LDQ1Ni41ODIsNDMzLjg0NCw0MDYuNzc4LDQzMy44NDR6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNCQUIyQjI7IiBkPSJNMjU2LjAwMSw0MzMuODQ0SDEwNS4yMjJjLTQ5LjgwNCwwLTkwLjE3OS00MC4zNzUtOTAuMTc5LTkwLjE3OXYtMjAuMzU3ICBjMC00OS44MDQsNDAuMzc1LTkwLjE3OSw5MC4xNzktOTAuMTc5aDE1MC43Nzd2MjAwLjcxNUgyNTYuMDAxeiIvPgo8Y2lyY2xlIHN0eWxlPSJmaWxsOiNGMTlEOUE7IiBjeD0iMTE2LjI0NSIgY3k9IjMyMC4wMjYiIHI9IjM4LjA2Ii8+CjxjaXJjbGUgc3R5bGU9ImZpbGw6I0Q1OEM4OTsiIGN4PSIzOTUuNzU0IiBjeT0iMzIwLjAyNiIgcj0iMzguMDYiLz4KPGc+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMzYyLjIwMSIgY3k9IjE3OS4zMSIgcj0iMjguMDY1Ii8+Cgk8Y2lyY2xlIHN0eWxlPSJmaWxsOiMwRTEyMTY7IiBjeD0iMTQ5Ljc5NyIgY3k9IjE3OS4zMSIgcj0iMjguMDY1Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/film1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/game.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">About</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+            complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
+            customization.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract
+            clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="#">
+          <i class="fas fa-download mr-2"></i>
+          Download Now!
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" required="required"
+                  data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Email Address</label>
+                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required"
+                  data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Phone Number</label>
+                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required"
+                  data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"
+                  data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">2215 John Daniel Drive
+            <br>Clark, MO 65243</p>
+        </div>
+        <div class="col-md-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <i class="fab fa-fw fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <i class="fab fa-fw fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <i class="fab fa-fw fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <i class="fab fa-fw fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <i class="fab fa-fw fa-dribbble"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-uppercase mb-4">About Freelancer</h4>
+          <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Your Website 2018</small>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
+              nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit
+              soluta, eos quod consequuntur itaque. Nam.</p>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="parallax.js-1.5.0/parallax.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
 </body>
 
 </html>

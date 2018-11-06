@@ -1,0 +1,45 @@
+.pdp {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height:50vh;
+    width: 50vh;
+}
+.pdp img {
+    display: flex;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.myNav {
+    background-color: #000000;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #E5E5E5;
+    background-color: #4C4C4C;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #E5E5E5;
+    background-color: #4C4C4C;
+}
+
+.bg-prim {
+    background-color: #4C4C4C;
+}
+
+.rabbit {
+    height: 25%;
+}
+
+.hippo {max-width: 50px;max-height: 50px;}

@@ -4,8 +4,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height:50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 22.5vh;
+    min-height: 5vh;
+    min-width: 5vh;
 }
 .pdp img {
     display: flex;
@@ -43,3 +45,7 @@
 }
 
 .hippo {max-width: 50px;max-height: 50px;}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: #4C4C4C;
+  }

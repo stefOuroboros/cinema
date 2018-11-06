@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  background-color: #2D557F;
+  grid-template-areas:
+    "nav"
+    "banner"
+    "films"
+    "infos"
+    "maps_contacts"
+    "forms"
+    "footer";
+  grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.panel{
+  height: 100%;
+  width: 100%;
+}
+
+.panel.green {
+  margin-bottom: 400px;
+}
+
+nav {
+  background-color: #53687E;
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+#logo {
+  grid-area: logo;
+  max-height: 20vh;
+  min-height: 5vh;
+}
+
+#menu {
+  font-size: 12pt;
+  grid-area: menu;
+  list-style: none;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+ #menu a { 
+  display: block;
+  padding: 10%;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lora';
+  background-color: #495C70;
+ }
+
+ #menu a:hover {
+   background-color: white;
+   color: #495C70;
+ }
+
+#banner {
+  display: flex;
+  grid-area: banner;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: white;
+}
+
+#infos {
+
+  grid-area: infos;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+#better,
+#tarifs {
+  width: 450px;
+  height: 240px;
+  font-size: 16px;
+  background: #495C70;
+  padding: 30px 30px 15px 30px;
+  border: 5px solid #53687E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+h2 {
+  padding: 1em;
+}
+
+
+#maps_contacts {
+  grid-area: maps_contacts;
+  display: flex;
+}
+
+#map {
+
+  display: flex;
+  margin: 2%;
+}
+
+#contact {
+
+  margin: auto;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.parallax-window {
+  min-height: 15vh;
+  max-height: 50vh;
+  background: transparent;
+}
+
+#films {
+  grid-area: films;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh 0vh 10vh 0vh;
+}
+
+#films img {
+  min-width: 5vh;
+  max-height: 45vh;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: solid white 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.caseVide {
+  border: none;
+}
+
+ol {
+  list-style-type: georgian;
+}

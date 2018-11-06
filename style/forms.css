@@ -1,0 +1,80 @@
+.forms {
+    width: 450px;
+    height: 240px;
+    font-size: 16px;
+    background: #495C70;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+    grid-area: forms;
+    margin: auto;
+}
+
+.forms input[type=submit],
+.forms input[type=button],
+.forms input[type=text],
+.forms input[type=email],
+.forms input[type=tel],
+.forms textarea,
+.forms label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.forms label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.forms label>span {
+    display: block;
+    float: left;
+    width: 150px;
+}
+
+.forms input[type=text],
+.forms input[type=tel],
+.forms input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+
+.forms textarea {
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize: none;
+    height: 20px;
+}
+
+.forms textarea:focus,
+.forms input[type=text]:focus,
+.forms input[type=email]:focus,
+.forms input[type=tel] :focus {
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.forms input[type=submit],
+.forms input[type=button] {
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+
+.forms input[type=submit]:hover,
+.forms input[type=button]:hover {
+    background: #495C70;
+}

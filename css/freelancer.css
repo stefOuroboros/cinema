@@ -121,10 +121,12 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  background-color: #4C4C4C;
+  background-color: transparent;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -327,7 +329,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: rgb(97, 97, 97);
   color: #fff;
 }
 
@@ -352,7 +354,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: rgb(121, 121, 121) !important;
 }
 
 .text-primary {
@@ -360,7 +362,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: rgb(98, 98, 98) !important;
 }
 
 .btn-primary {
@@ -375,10 +377,10 @@ a:focus, a:hover, a:active {
 
 .btn-secondary {
   background-color: #2C3E50;
-  border-color: #2C3E50;
+  border-color: rgb(107, 107, 107);
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
-  border-color: #1a252f;
+  border-color: #727272;
 }

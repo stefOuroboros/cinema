@@ -24,7 +24,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/freelancer.css" rel="stylesheet">
 
   <!-- myCustom CSS -->
 
@@ -356,7 +356,7 @@
     </div>
   </div>
 
-
+  <!-- Modal Reservation -->
   <div class="modal fade" id="reserver" tabindex="-1" role="dialog" aria-labelledby="reserverModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -367,24 +367,25 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="row">
+          <div class="row cc">
             <div class="col-lg-8 mx-auto d-flex mod">
-              <select class="custom-select" name="selectTarif" id="selectTarif" onchange="printPrixTicket() + printTotalSelect()">
+              <select class="custom-select mb-1" name="selectTarif" id="selectTarif0" onchange="printPrixTicket(0) + printTotalSelect(0)">
                 <option selected>Sélectionner un tarif...</option>
                 <option value="12">Plein tarif</option>
                 <option value="8">Tarif étudiant -26 ans</option>
                 <option value="5">Tarif -12ans</option>
               </select>
-              <input type="number" id="prixTicket" disabled="disabled">
+              <input type="number" id="prixTicket0" disabled="disabled">
               <label for="places">  Quantité : </label>
-              <input type="number" name="places" id="places" value="1" onchange="printTotalSelect()">
-              <input id="total" type="number" disabled="disabled">
+              <input type="number" name="places" class="mb-1"id="places0" value="1" onchange="printTotalSelect(0)">
+              <input class="mb-1 total" id="total0" type="number" disabled="disabled">
             </div>
           </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Valider achat</button>
+          <button type="button" class="btn btn-secondary" onclick="addCategorie()">Ajouter une ligne</button>
         </div>
       </div>
     </div>
